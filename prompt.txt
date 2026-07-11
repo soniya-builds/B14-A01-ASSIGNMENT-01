@@ -1,105 +1,81 @@
-Create a modern and premium "Conference Highlights" section for a developer conference landing page.
+---prompt 01---
+Create a premium "Conference Highlights" section for a modern developer conference landing page.
 
-The design should blend seamlessly with a professional conference website similar to Vercel, Stripe, GitHub Universe, or Web Summit.
+The section should match the design style of Stripe, Vercel, Framer, Apple Developer, or Web Summit.
 
 SECTION TITLE
 
-Centered Heading:
+Heading:
 Conference Highlights
 
-Centered Subtitle:
+Subtitle:
 Join thousands of developers, founders, and innovators from around the world.
 
-The title should be large, bold, and modern with generous spacing.
+Center both horizontally.
 
 LAYOUT
 
-Create five statistic cards.
+- Display five statistic cards.
+- Desktop: 5 cards in one row.
+- Tablet: 3 columns.
+- Mobile: 2 columns.
+- Small mobile: 1 column.
+- Use CSS Grid.
+- Cards should have equal height.
+- Plenty of white space.
 
-Desktop:
-- Display all 5 cards in a single row.
-
-Tablet:
-- Display 3 cards per row.
-
-Mobile:
-- Display 2 cards per row.
-- On very small screens, stack them in a single column.
-
-Use CSS Grid.
-
-Cards should have equal height.
-
-Spacing between cards should be consistent.
-
-CARDS
+CONTENT
 
 Card 1
-
 4000+
-
 Attendees
-
 Developers, founders, engineers, and tech enthusiasts.
 
 Card 2
-
 60+
-
 Expert Speakers
-
 Industry leaders from top technology companies.
 
 Card 3
-
 30+
-
-Technical Sessions
-
+Sessions
 Keynotes, panels, and hands-on workshops.
 
 Card 4
-
 20+
-
 Countries
-
 A diverse global developer community.
 
 Card 5
-
 3
-
 Conference Days
-
 Three days of learning, networking, and innovation.
 
 CARD DESIGN
 
-Each card should include:
+Each card should have:
 
-- White background
-- Border radius around 18px
+- White to light-blue gradient background
+- Rounded corners (20px)
 - Light border (#E5E7EB)
-- Soft modern box shadow
-- Comfortable padding
-- Center aligned content
-- Large blue number (around 58px)
-- Bold section title
-- Small gray description
-- Blue decorative line below the number
-- Equal spacing between elements
+- Premium layered box shadows
+- Large bold blue gradient numbers (about 60px)
+- Dark heading
+- Gray description
+- Comfortable spacing
+- Modern clean typography
+- Equal card height
 
 HOVER EFFECT
 
-When hovering over a card:
+Create a premium hover interaction:
 
-- Move upward around 10px
-- Slightly stronger shadow
-- Border changes to blue (#2952E3)
-- Smooth transition (300–350ms)
-
-The hover should feel elegant and premium.
+- Lift upward around 12px
+- Slight scale effect (1.03)
+- Stronger layered shadow
+- Blue gradient glow using a ::before pseudo-element
+- Smooth 350ms transition
+- The hover should feel elegant and modern.
 
 ANIMATION
 
@@ -109,60 +85,42 @@ Do NOT use JavaScript.
 
 Cards should:
 
-- Fade in smoothly
-- Slide upward slightly
-- Appear one after another using staggered animation delays
-- Animation duration around 0.8 seconds
+- Fade in
+- Slide upward
+- Slightly scale from 0.95 to 1
+- Appear one after another using staggered animation delays.
 
-Example animation sequence:
+Animation delays:
 
-Card 1 → 0.2s
+Card 1 → 0.1s
 
-Card 2 → 0.4s
+Card 2 → 0.2s
 
-Card 3 → 0.6s
+Card 3 → 0.3s
 
-Card 4 → 0.8s
+Card 4 → 0.4s
 
-Card 5 → 1s
+Card 5 → 0.5s
 
-Use CSS @keyframes only.
-
-TYPOGRAPHY
-
-Use a clean modern sans-serif font.
-
-Title:
-- 50–56px
-- Bold
-
-Subtitle:
-- 18px
-- Gray
-- Comfortable line height
-
-Numbers:
-- Around 58px
-- Bold
-- Blue (#2952E3)
-
-Descriptions:
-- Gray (#6B7280)
-
-SPACING
-
-Section width:
-90%
-
-Maximum width:
-1300px
-
-Large top and bottom margin:
-Around 120px
-
-Plenty of whitespace throughout.
+Animation duration:
+0.7 seconds
 
 IMPLEMENTATION
+
+Use only:
+
+- HTML5
+- CSS3
+
+Do NOT use:
+
+- JavaScript
+- Bootstrap
+- Tailwind CSS
+- GSAP
+- CountUp.js
+- jQuery
+- External UI libraries
 
 Use semantic HTML.
 
@@ -171,16 +129,13 @@ Provide two separate code blocks:
 1. HTML
 2. CSS
 
-Use beginner-friendly, clean code.
+Write clean, beginner-friendly, reusable code that blends seamlessly into an existing DevConf 2026 landing page.
 
-Do NOT use:
+--prompt 02--
+the cards should be floating always
 
-- JavaScript
-- Bootstrap
-- Tailwind CSS
-- jQuery
-- GSAP
-- CountUp.js
-- External UI libraries
+--prompt 03--
+add a little animation effect to the cards
 
-The final design should look polished, elegant, responsive, and suitable for a premium developer conference website.
+--prompt 04--
+make the cards floating with 3 sec delay
