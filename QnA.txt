@@ -1,0 +1,57 @@
+1. What is the difference between a <div> and a <span>? When would you use each?
+
+A <div> is a block-level element. It takes up the full width available and usually starts on a new line. It is used to group larger sections of a webpage, such as headers, cards, or containers.
+
+A <span> is an inline element. It only takes up as much space as its content and stays on the same line. It is mainly used to style or modify a small part of text inside another element.
+
+Example:
+I would use a <div> to create a speaker card, and a <span> to change the color of one word inside a heading.
+
+
+
+2. What is the CSS Box Model? Explain content, padding, border, and margin.
+
+The CSS Box Model describes how every HTML element is displayed as a rectangular box.
+
+It has four parts:
+
+- Content: The actual text, image, or other content inside the element.
+- Padding: The space between the content and the border.
+- Border: The line surrounding the padding and content.
+- Margin: The space outside the border that separates the element from other elements.
+
+Understanding the box model helps control the spacing and layout of a webpage.
+
+
+
+3. What is the difference between a CSS class and an id? When should you use one over the other?
+
+A class can be used for multiple elements. It is useful when several elements share the same style.
+
+An id should be unique and used for only one element on a page.
+
+For example, I can use a class for all buttons because they share the same design, but I would use an id for the hero section because there is only one hero section.
+
+
+
+4. What is Flexbox, and what's the difference between justify-content and align-items?
+
+Flexbox is a CSS layout system that makes it easier to arrange and align elements.
+
+justify-content controls the alignment along the main axis. If the flex direction is row, it moves items horizontally.
+
+align-items controls the alignment along the cross axis. If the flex direction is row, it moves items vertically.
+
+For example, I used justify-content to space items in my navbar and align-items to vertically center them.
+
+
+
+5. What is the difference between position: relative, absolute, and fixed in CSS?
+
+position: relative keeps the element in the normal document flow but allows it to be moved using top, bottom, left, or right.
+
+position: absolute removes the element from the normal flow and positions it relative to its nearest positioned parent.
+
+position: fixed also removes the element from the normal flow, but it stays fixed in the same position even when the page is scrolled.
+
+For example, a fixed navigation bar stays visible while scrolling, while an absolute element can be placed inside a card or container.
