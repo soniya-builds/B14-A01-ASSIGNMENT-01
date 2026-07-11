@@ -258,6 +258,11 @@ header{
     background: #2952E3;
     color: white;
 }
+.pricing .btn-register{
+    width: 100%;
+    padding: 15px;
+}
+
 /*Conference Highlights Section from here*/
 
 .conference-highlights{
@@ -462,92 +467,65 @@ header{
 
 }
 
-
+/*Footer starts*/
 .footer{
 
     background:#0F172A;
-
-    padding:60px 0 30px;
-
-    margin-top:120px;
+    padding:35px 0 15px;
+    margin-top:100px;
 
 }
 
 .footer-container{
 
     width:90%;
-
     max-width:1300px;
-
     margin:auto;
 
 }
 
-/* Top */
-
 .footer-top{
 
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
-    margin-bottom:30px;
+    margin-bottom:18px;
 
 }
-
-/* Logo */
 
 .footer-logo img{
 
-    width:180px;
-
+    width:170px;
 }
-
-/* Social Links */
 
 .footer-social{
 
     display:flex;
-
-    gap:18px;
+    gap:16px;
 
 }
 
 .footer-social a{
 
     text-decoration:none;
-
     color:#ffffff;
-
     font-size:15px;
-
     font-weight:500;
-
-    transition:.3s;
 
 }
 
 .footer-social a:hover{
 
     color:#2952E3;
-
 }
-
-/* Divider */
 
 .footer hr{
 
     border:none;
-
     border-top:1px solid rgba(255,255,255,.15);
-
-    margin:30px 0;
+    margin:18px 0;
 
 }
-
-/* Copyright */
 
 .footer-bottom{
 
@@ -558,9 +536,7 @@ header{
 .footer-bottom p{
 
     color:#94A3B8;
-
-    font-size:15px;
-
+    font-size:14px;
     letter-spacing:.5px;
 
 }
