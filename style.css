@@ -159,3 +159,305 @@ header{
     color: gray;
     font-size: 14px;
 }
+/* Pricing Section */
+.pricing{
+    width: 85%;
+    margin: 120px auto;
+}
+
+.pricing-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-title h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.pricing-title p{
+    color: gray;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pricing-card{
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.pricing-card h5{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.pricing-card h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+.pricing-card p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.pricing-card hr{
+    margin: 20px 0;
+}
+
+.pricing-card ul{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.pricing-card li{
+    margin-bottom: 15px;
+}
+
+/* Pro Card */
+
+.pro-card{
+    background: #111c2f;
+    color: white;
+}
+
+.pro-card h5{
+    color: #4D7DFF;
+}
+
+.pro-card p{
+    color: #d2d2d2;
+}
+
+.pro-card hr{
+    border-color: #2d3d58;
+}
+
+/* Outline Button */
+
+.btn-outline{
+    width: 100%;
+    padding: 15px;
+    background: white;
+    color: #2952E3;
+    border: 2px solid #2952E3;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-outline:hover{
+    background: #2952E3;
+    color: white;
+}
+/*Conference Highlights Section from here*/
+
+.conference-highlights{
+    width: 90%;
+    max-width: 1300px;
+    margin: 120px auto;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-title h2{
+    font-size: 52px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.section-title p{
+    font-size: 18px;
+    color: #6B7280;
+    line-height: 1.8;
+}
+
+
+.highlights-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 28px;
+}
+
+
+
+.highlight-card{
+
+    background: #ffffff;
+
+    border: 1px solid #E5E7EB;
+
+    border-radius: 18px;
+
+    padding: 40px 28px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,.05);
+
+    transition: all .35s ease;
+
+    opacity: 0;
+
+    animation: fadeUp .8s forwards;
+
+}
+
+
+.highlight-card:nth-child(1){
+    animation-delay: .2s;
+}
+
+.highlight-card:nth-child(2){
+    animation-delay: .4s;
+}
+
+.highlight-card:nth-child(3){
+    animation-delay: .6s;
+}
+
+.highlight-card:nth-child(4){
+    animation-delay: .8s;
+}
+
+.highlight-card:nth-child(5){
+    animation-delay: 1s;
+}
+
+
+.highlight-card:hover{
+
+    transform: translateY(-10px);
+
+    border-color: #2952E3;
+
+    box-shadow: 0 20px 40px rgba(41,82,227,.18);
+
+}
+
+
+.highlight-card h1{
+
+    font-size: 58px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+
+    color: #2952E3;
+
+}
+
+
+.highlight-card h1::after{
+
+    content: "";
+
+    display: block;
+
+    width: 55px;
+
+    height: 4px;
+
+    background: #2952E3;
+
+    border-radius: 20px;
+
+    margin: 18px auto;
+
+}
+
+.highlight-card h3{
+
+    font-size: 24px;
+
+    color: #111827;
+
+    margin-bottom: 15px;
+
+}
+
+
+.highlight-card p{
+
+    color: #6B7280;
+
+    line-height: 1.8;
+
+    font-size: 16px;
+
+}
+
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity: 0;
+
+        transform: translateY(40px);
+
+    }
+
+    to{
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+@media (max-width: 992px){
+
+    .highlights-grid{
+
+        grid-template-columns: repeat(3,1fr);
+
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .highlights-grid{
+
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+    .section-title h2{
+
+        font-size: 42px;
+
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .highlights-grid{
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .section-title h2{
+
+        font-size: 34px;
+
+    }
+
+}
