@@ -258,7 +258,17 @@ header{
     background: #2952E3;
     color: white;
 }
-.pricing .btn-register{
+
+.btn-contact{
+    border-color: #111;
+    color: #111;
+    background: white;
+}
+
+.btn-contact:hover{
+    background: #111;
+    color: white;
+}.pricing .btn-register{
     width: 100%;
     padding: 15px;
 }
