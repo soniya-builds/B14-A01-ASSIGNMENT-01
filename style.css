@@ -108,3 +108,54 @@ header{
     font-weight: 600;
 
 }
+.speakers{
+    width: 85%;
+    margin: 100px auto;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2{
+    font-size: 45px;
+}
+
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.speaker-card{
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.speaker-card img{
+    width: 100%;
+    display: block;
+}
+
+.speaker-info{
+    padding: 18px;
+}
+
+.speaker-role{
+    color: #2F5BEA;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.speaker-info h3{
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.speaker-company{
+    color: gray;
+    font-size: 14px;
+}
