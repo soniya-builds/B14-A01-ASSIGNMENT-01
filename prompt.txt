@@ -1,0 +1,186 @@
+Create a modern and premium "Conference Highlights" section for a developer conference landing page.
+
+The design should blend seamlessly with a professional conference website similar to Vercel, Stripe, GitHub Universe, or Web Summit.
+
+SECTION TITLE
+
+Centered Heading:
+Conference Highlights
+
+Centered Subtitle:
+Join thousands of developers, founders, and innovators from around the world.
+
+The title should be large, bold, and modern with generous spacing.
+
+LAYOUT
+
+Create five statistic cards.
+
+Desktop:
+- Display all 5 cards in a single row.
+
+Tablet:
+- Display 3 cards per row.
+
+Mobile:
+- Display 2 cards per row.
+- On very small screens, stack them in a single column.
+
+Use CSS Grid.
+
+Cards should have equal height.
+
+Spacing between cards should be consistent.
+
+CARDS
+
+Card 1
+
+4000+
+
+Attendees
+
+Developers, founders, engineers, and tech enthusiasts.
+
+Card 2
+
+60+
+
+Expert Speakers
+
+Industry leaders from top technology companies.
+
+Card 3
+
+30+
+
+Technical Sessions
+
+Keynotes, panels, and hands-on workshops.
+
+Card 4
+
+20+
+
+Countries
+
+A diverse global developer community.
+
+Card 5
+
+3
+
+Conference Days
+
+Three days of learning, networking, and innovation.
+
+CARD DESIGN
+
+Each card should include:
+
+- White background
+- Border radius around 18px
+- Light border (#E5E7EB)
+- Soft modern box shadow
+- Comfortable padding
+- Center aligned content
+- Large blue number (around 58px)
+- Bold section title
+- Small gray description
+- Blue decorative line below the number
+- Equal spacing between elements
+
+HOVER EFFECT
+
+When hovering over a card:
+
+- Move upward around 10px
+- Slightly stronger shadow
+- Border changes to blue (#2952E3)
+- Smooth transition (300–350ms)
+
+The hover should feel elegant and premium.
+
+ANIMATION
+
+Use only CSS animations.
+
+Do NOT use JavaScript.
+
+Cards should:
+
+- Fade in smoothly
+- Slide upward slightly
+- Appear one after another using staggered animation delays
+- Animation duration around 0.8 seconds
+
+Example animation sequence:
+
+Card 1 → 0.2s
+
+Card 2 → 0.4s
+
+Card 3 → 0.6s
+
+Card 4 → 0.8s
+
+Card 5 → 1s
+
+Use CSS @keyframes only.
+
+TYPOGRAPHY
+
+Use a clean modern sans-serif font.
+
+Title:
+- 50–56px
+- Bold
+
+Subtitle:
+- 18px
+- Gray
+- Comfortable line height
+
+Numbers:
+- Around 58px
+- Bold
+- Blue (#2952E3)
+
+Descriptions:
+- Gray (#6B7280)
+
+SPACING
+
+Section width:
+90%
+
+Maximum width:
+1300px
+
+Large top and bottom margin:
+Around 120px
+
+Plenty of whitespace throughout.
+
+IMPLEMENTATION
+
+Use semantic HTML.
+
+Provide two separate code blocks:
+
+1. HTML
+2. CSS
+
+Use beginner-friendly, clean code.
+
+Do NOT use:
+
+- JavaScript
+- Bootstrap
+- Tailwind CSS
+- jQuery
+- GSAP
+- CountUp.js
+- External UI libraries
+
+The final design should look polished, elegant, responsive, and suitable for a premium developer conference website.
